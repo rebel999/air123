@@ -1,0 +1,9 @@
+
+create table users(username varchar2(20), password varchar2(20), role varchar2(10), mobile_no number);
+
+create table Airport (AirportName varchar2(20), Abbreviation varchar2(5), Location varchar2(40));
+
+create table FlightInfo (flightno varchar2(5), airline varchar2(10), dep_city varchar2(10), arr_city varchar2(10), dep_date date, arr_date date,dep_time varchar2(30), arr_time varchar2(30), FirstSeats number, FirstSeatFare number, BussSeats number, BussSeatsFare number);
+
+create table BookingInfo (Booking_id varchar2(5), cust_email varchar2(20), no_of_passengers number, class_type varchar2(10), total_fare number,seat_number varchar2(10), CreditCard_info varchar2(10), src_city varchar2(10), dest_city varchar2(10)); 
+ 
